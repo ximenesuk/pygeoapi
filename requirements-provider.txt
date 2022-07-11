@@ -4,11 +4,11 @@ fiona
 netCDF4
 pandas; python_version < '3.7'
 pandas==1.2.5; python_version >= '3.7'
-psycopg2-binary==2.8.4
+psycopg2-binary
 pygeometa
 pymongo==3.10.1
 scipy
 xarray
 zarr
 elasticsearch-dsl<8
-
+pygeofilter[backend-sqlalchemy]
